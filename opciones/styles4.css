@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/productos.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    width: auto;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+form
+{
+    background: #fff;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    text-align: center;
+    padding: 3%;
+}
+.conteiner
+{
+    display: flex;
+    margin: 5%;
+}
+form input{
+    background: none;
+    color: #ffffff98;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    resize: none;
+    margin-top: 3%;
+}
+form input:focus
+{
+    outline: none;
+    color: #ffffff98;
+}
+button
+{
+    padding: 2%;
+    color: #fff;
+    background: #DCE35B;
+    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);
+    background: linear-gradient(to right, #45B649, #DCE35B);
+    border: none;
+    border-radius: 10px;
+}
+button:hover
+{
+    color: #000;
+    transition: 0.5s;
+}
+button a
+{
+    color: #fff;
+    text-decoration: none;
+}
+button a:hover
+{
+    color: #000;
+    transition: 0.5s;
+}
